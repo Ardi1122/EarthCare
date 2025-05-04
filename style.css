@@ -80,10 +80,6 @@ main article .misi img {
 }
 /* main */
 
-/* footer */
-
-/* footer */
-
 @media (min-width: 767px) { /* Menyesuaikan ukuran huruf di lebar ponsel */
     .carousel-caption h5 {
       font-size: 1.5rem; 
