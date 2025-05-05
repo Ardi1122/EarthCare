@@ -21,27 +21,39 @@
   </head>
   <body>
     <!-- Bagian Header -->
-    <header>
-      <!-- Logo organisasi -->
-      <div class="logo">
-        <img src="img/logo-Care4Earth.jpeg" alt="Care4Earth" />
-      </div>
-
-      <!-- Tombol menu (untuk tampilan mobile) -->
-      <div class="menu d-block d-md-none" id="menu-toggle">
-        <img src="img/menu.png" alt="Menu" />
-      </div>
-
-      <!-- Navigasi utama -->
-      <nav id="nav-links" class="d-none d-md-block">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Campaign</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+     <header>
+      <nav class="navbar navbar-expand-md bg-white shadow-sm sticky-top">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="img/logo-Care4Earth.jpeg" alt="Care4Earth" width="60" height="60" />
+          </a>
+      
+          <!-- Toggle button (otomatis berfungsi dengan Bootstrap) -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Navigation links -->
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0 gap-4">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#">Campaign</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-    </header>
+     </header>
 
     <!-- Carousel Gambar -->
     <div id="carouselExampleCaptions" class="carousel slide">
@@ -78,7 +90,7 @@
         <div class="carousel-item active">
           <img src="img/slide1.jpeg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-md-block">
-            <h5>Together for a Greener Future</h5>
+            <h4>Together for a Greener Future</h4>
             <p>
               Bergabunglah bersama kami untuk menghijaukan bumi demi generasi
               mendatang.
@@ -90,7 +102,7 @@
         <div class="carousel-item">
           <img src="img/slide2.jpeg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-md-block">
-            <h5>Together for a Greener Future</h5>
+            <h4>Together for a Greener Future</h4>
             <p>
               Kami percaya setiap aksi kecil memiliki dampak besar bagi
               lingkungan.
@@ -102,7 +114,7 @@
         <div class="carousel-item">
           <img src="img/slide3.jpeg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-md-block">
-            <h5>Together for a Greener Future</h5>
+            <h4>Together for a Greener Future</h4>
             <p>
               Dukung kampanye kami untuk menciptakan dunia yang bersih dan
               lestari.
